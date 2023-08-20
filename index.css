@@ -27,8 +27,15 @@
 }
 .home-image {
   width: 100%;
-  padding: var(--dl-space-space-twounits);
   object-fit: cover;
+}
+.home-image1 {
+  width: 100%;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
 }
 .home-banner {
   width: 100%;
@@ -58,7 +65,7 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.home-image1 {
+.home-image2 {
   width: 100%;
   object-fit: cover;
 }
@@ -69,7 +76,7 @@
   .home-text {
     text-align: center;
   }
-  .home-image1 {
+  .home-image2 {
     width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
   }
@@ -106,7 +113,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-image1 {
+  .home-image2 {
     width: 100%;
     box-shadow: 5px 5px 10px 0px #d4d4d4;
     border-color: var(--dl-color-gray-black);
